@@ -1,0 +1,108 @@
+{
+    "annotations": [
+        {
+            "id": 20516194,
+            "ns": "idr.openmicroscopy.org/study/info",
+            "description": null,
+            "owner": {
+                "id": 2
+            },
+            "date": "2019-06-04T10:44:04+01:00",
+            "permissions": {
+                "canDelete": false,
+                "canAnnotate": false,
+                "canLink": false,
+                "canEdit": false
+            },
+            "link": {
+                "id": 1305,
+                "owner": {
+                    "id": 2
+                },
+                "parent": {
+                    "id": 151,
+                    "class": "ProjectI",
+                    "name": "idr0027-dickerson-chromatin/experimentA"
+                },
+                "date": "2019-06-04T10:44:04+01:00",
+                "permissions": {
+                    "canDelete": false,
+                    "canAnnotate": false,
+                    "canLink": false,
+                    "canEdit": false
+                }
+            },
+            "class": "MapAnnotationI",
+            "values": [
+                [
+                    "Sample Type",
+                    "cell"
+                ],
+                [
+                    "Organism",
+                    "Saccharomyces cerevisiae"
+                ],
+                [
+                    "Study Type",
+                    "time-lapse imaging"
+                ],
+                [
+                    "Imaging Method",
+                    "fluorescence microscopy"
+                ],
+                [
+                    "Publication Title",
+                    "High resolution imaging reveals heterogeneity in chromatin states between cells that is not inherited through cell division."
+                ],
+                [
+                    "Publication Authors",
+                    "Dickerson D, Gierli\u0144ski M, Singh V, Kitamura E, Ball G, Tanaka TU, Owen-Hughes T"
+                ],
+                [
+                    "PubMed ID",
+                    "27609610 https://www.ncbi.nlm.nih.gov/pubmed/27609610"
+                ],
+                [
+                    "PMC ID",
+                    "PMC5016949 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5016949"
+                ],
+                [
+                    "Publication DOI",
+                    "10.1186/s12860-016-0111-y https://doi.org/10.1186/s12860-016-0111-y"
+                ],
+                [
+                    "Release Date",
+                    "2016-11-01"
+                ],
+                [
+                    "License",
+                    "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/"
+                ],
+                [
+                    "Copyright",
+                    "Dickerson et al"
+                ],
+                [
+                    "Data Publisher",
+                    "University of Dundee"
+                ],
+                [
+                    "Data DOI",
+                    "10.17867/10000102 https://doi.org/10.17867/10000102"
+                ],
+                [
+                    "Annotation File",
+                    "idr0027-experimentA-annotation.csv https://github.com/IDR/idr-metadata/blob/HEAD/idr0027-dickerson-chromatin/experimentA/idr0027-experimentA-annotation.csv"
+                ]
+            ]
+        }
+    ],
+    "experimenters": [
+        {
+            "id": 2,
+            "omeName": "demo",
+            "firstName": "Public",
+            "lastName": "data"
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "annotations": [
+        {
+            "id": 20516187,
+            "ns": "idr.openmicroscopy.org/study/info",
+            "description": null,
+            "owner": {
+                "id": 2
+            },
+            "date": "2019-06-04T10:43:54+01:00",
+            "permissions": {
+                "canDelete": false,
+                "canAnnotate": false,
+                "canLink": false,
+                "canEdit": false
+            },
+            "link": {
+                "id": 1301,
+                "owner": {
+                    "id": 2
+                },
+                "parent": {
+                    "id": 101,
+                    "class": "ProjectI",
+                    "name": "idr0018-neff-histopathology/experimentA"
+                },
+                "date": "2019-06-04T10:43:54+01:00",
+                "permissions": {
+                    "canDelete": false,
+                    "canAnnotate": false,
+                    "canLink": false,
+                    "canEdit": false
+                }
+            },
+            "class": "MapAnnotationI",
+            "values": [
+                [
+                    "Sample Type",
+                    "tissue"
+                ],
+                [
+                    "Organism",
+                    "Mus musculus"
+                ],
+                [
+                    "Study Title",
+                    "Histopathology of mouse knockouts"
+                ],
+                [
+                    "Study Type",
+                    "histology"
+                ],
+                [
+                    "Imaging Method",
+                    "bright-field microscopy"
+                ],
+                [
+                    "Release Date",
+                    "2016-05-26"
+                ],
+                [
+                    "License",
+                    "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/"
+                ],
+                [
+                    "Copyright",
+                    "Frauke Neff and Jean-Karim Heriche"
+                ],
+                [
+                    "Annotation File",
+                    "idr0018-experimentA-annotation.csv https://github.com/IDR/idr0018-neff-histopathology/blob/HEAD/experimentA/idr0018-experimentA-annotation.csv"
+                ]
+            ]
+        }
+    ],
+    "experimenters": [
+        {
+            "id": 2,
+            "omeName": "demo",
+            "firstName": "Public",
+            "lastName": "data"
+        }
+    ]
+}

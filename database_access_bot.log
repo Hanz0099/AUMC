@@ -1,0 +1,142 @@
+2024-05-02 11:58:08,776 - INFO - MallocNanoZone: 0
+2024-05-02 11:58:08,776 - INFO - USER: hnfd
+2024-05-02 11:58:08,776 - INFO - COMMAND_MODE: unix2003
+2024-05-02 11:58:08,776 - INFO - __CFBundleIdentifier: com.microsoft.VSCode
+2024-05-02 11:58:08,776 - INFO - PATH: /Users/hnfd/.vscode/extensions/ms-python.python-2024.4.1/python_files/deactivate/zsh:/Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject/bin:/Users/hnfd/.vscode/extensions/ms-python.python-2024.4.1/python_files/deactivate/zsh:/Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/hnfd/.vscode/extensions/ms-python.python-2024.4.1/python_files/deactivate/zsh:/Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject/bin:/Users/hnfd/anaconda3/bin:/Users/hnfd/anaconda3/condabin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin
+2024-05-02 11:58:08,776 - INFO - LOGNAME: hnfd
+2024-05-02 11:58:08,776 - INFO - SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.t5VI6VcELQ/Listeners
+2024-05-02 11:58:08,776 - INFO - HOME: /Users/hnfd
+2024-05-02 11:58:08,776 - INFO - SHELL: /bin/zsh
+2024-05-02 11:58:08,777 - INFO - TMPDIR: /var/folders/nr/l_9v83d56xv50npsykbpfbcc0000gn/T/
+2024-05-02 11:58:08,777 - INFO - __CF_USER_TEXT_ENCODING: 0x1F5:0x19:0x34
+2024-05-02 11:58:08,777 - INFO - XPC_SERVICE_NAME: 0
+2024-05-02 11:58:08,777 - INFO - XPC_FLAGS: 0x0
+2024-05-02 11:58:08,777 - INFO - ORIGINAL_XDG_CURRENT_DESKTOP: undefined
+2024-05-02 11:58:08,777 - INFO - SHLVL: 1
+2024-05-02 11:58:08,777 - INFO - PWD: /Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC
+2024-05-02 11:58:08,777 - INFO - OLDPWD: /Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC
+2024-05-02 11:58:08,777 - INFO - CONDA_EXE: /Users/hnfd/anaconda3/bin/conda
+2024-05-02 11:58:08,777 - INFO - _CE_M: 
+2024-05-02 11:58:08,777 - INFO - _CE_CONDA: 
+2024-05-02 11:58:08,777 - INFO - CONDA_PYTHON_EXE: /Users/hnfd/anaconda3/bin/python
+2024-05-02 11:58:08,777 - INFO - CONDA_SHLVL: 1
+2024-05-02 11:58:08,777 - INFO - CONDA_PREFIX: /Users/hnfd/anaconda3
+2024-05-02 11:58:08,777 - INFO - CONDA_DEFAULT_ENV: base
+2024-05-02 11:58:08,777 - INFO - CONDA_PROMPT_MODIFIER: (base) 
+2024-05-02 11:58:08,777 - INFO - PYTHONSTARTUP: /Users/hnfd/.vscode/extensions/ms-python.python-2024.4.1/python_files/pythonrc.py
+2024-05-02 11:58:08,777 - INFO - TERM_PROGRAM: vscode
+2024-05-02 11:58:08,778 - INFO - TERM_PROGRAM_VERSION: 1.88.1
+2024-05-02 11:58:08,778 - INFO - LANG: zh_CN.UTF-8
+2024-05-02 11:58:08,778 - INFO - COLORTERM: truecolor
+2024-05-02 11:58:08,778 - INFO - GIT_ASKPASS: /Users/hnfd/Desktop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+2024-05-02 11:58:08,778 - INFO - VSCODE_GIT_ASKPASS_NODE: /Users/hnfd/Desktop/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)
+2024-05-02 11:58:08,778 - INFO - VSCODE_GIT_ASKPASS_EXTRA_ARGS: 
+2024-05-02 11:58:08,778 - INFO - VSCODE_GIT_ASKPASS_MAIN: /Users/hnfd/Desktop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+2024-05-02 11:58:08,778 - INFO - VSCODE_GIT_IPC_HANDLE: /var/folders/nr/l_9v83d56xv50npsykbpfbcc0000gn/T/vscode-git-f5dfc413b5.sock
+2024-05-02 11:58:08,778 - INFO - OPENAI_API_KEY: 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
+2024-05-02 11:58:08,778 - INFO - VIRTUAL_ENV: /Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject
+2024-05-02 11:58:08,778 - INFO - VIRTUAL_ENV_PROMPT: (aumcproject) 
+2024-05-02 11:58:08,778 - INFO - VSCODE_INJECTION: 1
+2024-05-02 11:58:08,778 - INFO - ZDOTDIR: /Users/hnfd
+2024-05-02 11:58:08,779 - INFO - USER_ZDOTDIR: /Users/hnfd
+2024-05-02 11:58:08,779 - INFO - TERM: xterm-256color
+2024-05-02 11:58:08,779 - INFO - PS1: (aumcproject) (base) %n@%m %1~ %# 
+2024-05-02 11:58:08,779 - INFO - _: /Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject/bin/python
+2024-05-02 11:58:17,708 - INFO - MallocNanoZone: 0
+2024-05-02 11:58:17,708 - INFO - USER: hnfd
+2024-05-02 11:58:17,708 - INFO - COMMAND_MODE: unix2003
+2024-05-02 11:58:17,708 - INFO - __CFBundleIdentifier: com.microsoft.VSCode
+2024-05-02 11:58:17,708 - INFO - PATH: /Users/hnfd/.vscode/extensions/ms-python.python-2024.4.1/python_files/deactivate/zsh:/Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject/bin:/Users/hnfd/.vscode/extensions/ms-python.python-2024.4.1/python_files/deactivate/zsh:/Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/hnfd/.vscode/extensions/ms-python.python-2024.4.1/python_files/deactivate/zsh:/Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject/bin:/Users/hnfd/anaconda3/bin:/Users/hnfd/anaconda3/condabin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin
+2024-05-02 11:58:17,708 - INFO - LOGNAME: hnfd
+2024-05-02 11:58:17,708 - INFO - SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.t5VI6VcELQ/Listeners
+2024-05-02 11:58:17,709 - INFO - HOME: /Users/hnfd
+2024-05-02 11:58:17,709 - INFO - SHELL: /bin/zsh
+2024-05-02 11:58:17,709 - INFO - TMPDIR: /var/folders/nr/l_9v83d56xv50npsykbpfbcc0000gn/T/
+2024-05-02 11:58:17,709 - INFO - __CF_USER_TEXT_ENCODING: 0x1F5:0x19:0x34
+2024-05-02 11:58:17,709 - INFO - XPC_SERVICE_NAME: 0
+2024-05-02 11:58:17,709 - INFO - XPC_FLAGS: 0x0
+2024-05-02 11:58:17,709 - INFO - ORIGINAL_XDG_CURRENT_DESKTOP: undefined
+2024-05-02 11:58:17,709 - INFO - SHLVL: 1
+2024-05-02 11:58:17,709 - INFO - PWD: /Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC
+2024-05-02 11:58:17,709 - INFO - OLDPWD: /Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC
+2024-05-02 11:58:17,709 - INFO - CONDA_EXE: /Users/hnfd/anaconda3/bin/conda
+2024-05-02 11:58:17,709 - INFO - _CE_M: 
+2024-05-02 11:58:17,709 - INFO - _CE_CONDA: 
+2024-05-02 11:58:17,709 - INFO - CONDA_PYTHON_EXE: /Users/hnfd/anaconda3/bin/python
+2024-05-02 11:58:17,709 - INFO - CONDA_SHLVL: 1
+2024-05-02 11:58:17,709 - INFO - CONDA_PREFIX: /Users/hnfd/anaconda3
+2024-05-02 11:58:17,709 - INFO - CONDA_DEFAULT_ENV: base
+2024-05-02 11:58:17,709 - INFO - CONDA_PROMPT_MODIFIER: (base) 
+2024-05-02 11:58:17,709 - INFO - PYTHONSTARTUP: /Users/hnfd/.vscode/extensions/ms-python.python-2024.4.1/python_files/pythonrc.py
+2024-05-02 11:58:17,709 - INFO - TERM_PROGRAM: vscode
+2024-05-02 11:58:17,709 - INFO - TERM_PROGRAM_VERSION: 1.88.1
+2024-05-02 11:58:17,709 - INFO - LANG: zh_CN.UTF-8
+2024-05-02 11:58:17,710 - INFO - COLORTERM: truecolor
+2024-05-02 11:58:17,710 - INFO - GIT_ASKPASS: /Users/hnfd/Desktop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+2024-05-02 11:58:17,710 - INFO - VSCODE_GIT_ASKPASS_NODE: /Users/hnfd/Desktop/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)
+2024-05-02 11:58:17,710 - INFO - VSCODE_GIT_ASKPASS_EXTRA_ARGS: 
+2024-05-02 11:58:17,710 - INFO - VSCODE_GIT_ASKPASS_MAIN: /Users/hnfd/Desktop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+2024-05-02 11:58:17,710 - INFO - VSCODE_GIT_IPC_HANDLE: /var/folders/nr/l_9v83d56xv50npsykbpfbcc0000gn/T/vscode-git-f5dfc413b5.sock
+2024-05-02 11:58:17,710 - INFO - OPENAI_API_KEY: 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
+2024-05-02 11:58:17,710 - INFO - VIRTUAL_ENV: /Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject
+2024-05-02 11:58:17,710 - INFO - VIRTUAL_ENV_PROMPT: (aumcproject) 
+2024-05-02 11:58:17,710 - INFO - VSCODE_INJECTION: 1
+2024-05-02 11:58:17,710 - INFO - ZDOTDIR: /Users/hnfd
+2024-05-02 11:58:17,710 - INFO - USER_ZDOTDIR: /Users/hnfd
+2024-05-02 11:58:17,710 - INFO - TERM: xterm-256color
+2024-05-02 11:58:17,710 - INFO - PS1: (aumcproject) (base) %n@%m %1~ %# 
+2024-05-02 11:58:17,710 - INFO - _: /Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject/bin/python
+2024-05-02 11:59:11,118 - INFO - MallocNanoZone: 0
+2024-05-02 11:59:11,118 - INFO - USER: hnfd
+2024-05-02 11:59:11,118 - INFO - COMMAND_MODE: unix2003
+2024-05-02 11:59:11,119 - INFO - __CFBundleIdentifier: com.microsoft.VSCode
+2024-05-02 11:59:11,119 - INFO - PATH: /Users/hnfd/.vscode/extensions/ms-python.python-2024.4.1/python_files/deactivate/zsh:/Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject/bin:/Users/hnfd/.vscode/extensions/ms-python.python-2024.4.1/python_files/deactivate/zsh:/Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/hnfd/.vscode/extensions/ms-python.python-2024.4.1/python_files/deactivate/zsh:/Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject/bin:/Users/hnfd/anaconda3/bin:/Users/hnfd/anaconda3/condabin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.11/bin
+2024-05-02 11:59:11,119 - INFO - LOGNAME: hnfd
+2024-05-02 11:59:11,119 - INFO - SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.t5VI6VcELQ/Listeners
+2024-05-02 11:59:11,119 - INFO - HOME: /Users/hnfd
+2024-05-02 11:59:11,119 - INFO - SHELL: /bin/zsh
+2024-05-02 11:59:11,119 - INFO - TMPDIR: /var/folders/nr/l_9v83d56xv50npsykbpfbcc0000gn/T/
+2024-05-02 11:59:11,119 - INFO - __CF_USER_TEXT_ENCODING: 0x1F5:0x19:0x34
+2024-05-02 11:59:11,119 - INFO - XPC_SERVICE_NAME: 0
+2024-05-02 11:59:11,119 - INFO - XPC_FLAGS: 0x0
+2024-05-02 11:59:11,119 - INFO - ORIGINAL_XDG_CURRENT_DESKTOP: undefined
+2024-05-02 11:59:11,120 - INFO - SHLVL: 1
+2024-05-02 11:59:11,120 - INFO - PWD: /Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC
+2024-05-02 11:59:11,120 - INFO - OLDPWD: /Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC
+2024-05-02 11:59:11,120 - INFO - CONDA_EXE: /Users/hnfd/anaconda3/bin/conda
+2024-05-02 11:59:11,120 - INFO - _CE_M: 
+2024-05-02 11:59:11,120 - INFO - _CE_CONDA: 
+2024-05-02 11:59:11,120 - INFO - CONDA_PYTHON_EXE: /Users/hnfd/anaconda3/bin/python
+2024-05-02 11:59:11,120 - INFO - CONDA_SHLVL: 1
+2024-05-02 11:59:11,120 - INFO - CONDA_PREFIX: /Users/hnfd/anaconda3
+2024-05-02 11:59:11,120 - INFO - CONDA_DEFAULT_ENV: base
+2024-05-02 11:59:11,120 - INFO - CONDA_PROMPT_MODIFIER: (base) 
+2024-05-02 11:59:11,120 - INFO - PYTHONSTARTUP: /Users/hnfd/.vscode/extensions/ms-python.python-2024.4.1/python_files/pythonrc.py
+2024-05-02 11:59:11,120 - INFO - TERM_PROGRAM: vscode
+2024-05-02 11:59:11,121 - INFO - TERM_PROGRAM_VERSION: 1.88.1
+2024-05-02 11:59:11,121 - INFO - LANG: zh_CN.UTF-8
+2024-05-02 11:59:11,121 - INFO - COLORTERM: truecolor
+2024-05-02 11:59:11,121 - INFO - GIT_ASKPASS: /Users/hnfd/Desktop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+2024-05-02 11:59:11,121 - INFO - VSCODE_GIT_ASKPASS_NODE: /Users/hnfd/Desktop/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)
+2024-05-02 11:59:11,121 - INFO - VSCODE_GIT_ASKPASS_EXTRA_ARGS: 
+2024-05-02 11:59:11,121 - INFO - VSCODE_GIT_ASKPASS_MAIN: /Users/hnfd/Desktop/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+2024-05-02 11:59:11,121 - INFO - VSCODE_GIT_IPC_HANDLE: /var/folders/nr/l_9v83d56xv50npsykbpfbcc0000gn/T/vscode-git-f5dfc413b5.sock
+2024-05-02 11:59:11,121 - INFO - OPENAI_API_KEY: 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
+2024-05-02 11:59:11,121 - INFO - VIRTUAL_ENV: /Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject
+2024-05-02 11:59:11,121 - INFO - VIRTUAL_ENV_PROMPT: (aumcproject) 
+2024-05-02 11:59:11,122 - INFO - VSCODE_INJECTION: 1
+2024-05-02 11:59:11,122 - INFO - ZDOTDIR: /Users/hnfd
+2024-05-02 11:59:11,122 - INFO - USER_ZDOTDIR: /Users/hnfd
+2024-05-02 11:59:11,122 - INFO - TERM: xterm-256color
+2024-05-02 11:59:11,122 - INFO - PS1: (aumcproject) (base) %n@%m %1~ %# 
+2024-05-02 11:59:11,122 - INFO - _: /Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/实践/AUMC/aumcproject/bin/python
+2024-05-02 13:25:02,708 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2024-05-02 13:28:29,823 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2024-05-02 13:30:30,221 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2024-05-02 13:32:14,663 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2024-05-02 13:37:09,910 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-05-02 13:37:10,172 - INFO - Loading faiss with AVX2 support.
+2024-05-02 13:37:10,863 - INFO - Successfully loaded faiss with AVX2 support.
+2024-05-02 13:37:11,081 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-05-02 13:37:12,600 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-02 13:37:12,618 - INFO - Query response for 'what's the research question': I'm sorry, but the provided context does not explicitly state a specific research question. If you have a specific research question in mind related to the information provided, please let me know, and I will do my best to assist you.

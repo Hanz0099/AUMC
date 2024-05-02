@@ -1,0 +1,96 @@
+{
+    "annotations": [
+        {
+            "id": 20516191,
+            "ns": "idr.openmicroscopy.org/study/info",
+            "description": null,
+            "owner": {
+                "id": 2
+            },
+            "date": "2019-06-04T10:43:59+01:00",
+            "permissions": {
+                "canDelete": false,
+                "canAnnotate": false,
+                "canLink": false,
+                "canEdit": false
+            },
+            "link": {
+                "id": 1303,
+                "owner": {
+                    "id": 2
+                },
+                "parent": {
+                    "id": 52,
+                    "class": "ProjectI",
+                    "name": "idr0023-szymborska-nuclearpore/experimentA"
+                },
+                "date": "2019-06-04T10:43:59+01:00",
+                "permissions": {
+                    "canDelete": false,
+                    "canAnnotate": false,
+                    "canLink": false,
+                    "canEdit": false
+                }
+            },
+            "class": "MapAnnotationI",
+            "values": [
+                [
+                    "Sample Type",
+                    "cell"
+                ],
+                [
+                    "Organism",
+                    "Homo sapiens"
+                ],
+                [
+                    "Study Type",
+                    "protein localization"
+                ],
+                [
+                    "Imaging Method",
+                    "STORM (stochastic optical reconstruction microscopy)"
+                ],
+                [
+                    "Publication Title",
+                    "Nuclear pore scaffold structure analyzed by super-resolution microscopy and particle averaging."
+                ],
+                [
+                    "Publication Authors",
+                    "Szymborska A, de Marco A, Daigle N, Cordes VC, Briggs JA, Ellenberg J"
+                ],
+                [
+                    "PubMed ID",
+                    "23845946 https://www.ncbi.nlm.nih.gov/pubmed/23845946"
+                ],
+                [
+                    "Publication DOI",
+                    "10.1126/science.1240672 https://doi.org/10.1126/science.1240672"
+                ],
+                [
+                    "Release Date",
+                    "2016-05-26"
+                ],
+                [
+                    "License",
+                    "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/"
+                ],
+                [
+                    "Copyright",
+                    "Szymborska et al"
+                ],
+                [
+                    "Annotation File",
+                    "idr0023-experimentA-annotation.csv https://github.com/IDR/idr-metadata/blob/HEAD/idr0023-szymborska-nuclearpore/experimentA/idr0023-experimentA-annotation.csv"
+                ]
+            ]
+        }
+    ],
+    "experimenters": [
+        {
+            "id": 2,
+            "omeName": "demo",
+            "firstName": "Public",
+            "lastName": "data"
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "annotations": [
+        {
+            "id": 20516190,
+            "ns": "idr.openmicroscopy.org/study/info",
+            "description": null,
+            "owner": {
+                "id": 2
+            },
+            "date": "2019-06-04T10:43:58+01:00",
+            "permissions": {
+                "canDelete": false,
+                "canAnnotate": false,
+                "canLink": false,
+                "canEdit": false
+            },
+            "link": {
+                "id": 1302,
+                "owner": {
+                    "id": 2
+                },
+                "parent": {
+                    "id": 51,
+                    "class": "ProjectI",
+                    "name": "idr0021-lawo-pericentriolarmaterial/experimentA"
+                },
+                "date": "2019-06-04T10:43:59+01:00",
+                "permissions": {
+                    "canDelete": false,
+                    "canAnnotate": false,
+                    "canLink": false,
+                    "canEdit": false
+                }
+            },
+            "class": "MapAnnotationI",
+            "values": [
+                [
+                    "Sample Type",
+                    "cell"
+                ],
+                [
+                    "Organism",
+                    "Homo sapiens"
+                ],
+                [
+                    "Study Type",
+                    "protein localization"
+                ],
+                [
+                    "Imaging Method",
+                    "structured illumination microscopy (SIM)"
+                ],
+                [
+                    "Publication Title",
+                    "Subdiffraction imaging of centrosomes reveals higher-order organizational features of pericentriolar material."
+                ],
+                [
+                    "Publication Authors",
+                    "Lawo S, Hasegan M, Gupta GD, Pelletier L"
+                ],
+                [
+                    "PubMed ID",
+                    "23086237 https://www.ncbi.nlm.nih.gov/pubmed/23086237"
+                ],
+                [
+                    "Publication DOI",
+                    "10.1038/ncb2591 https://doi.org/10.1038/ncb2591"
+                ],
+                [
+                    "Release Date",
+                    "2016-05-26"
+                ],
+                [
+                    "License",
+                    "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/"
+                ],
+                [
+                    "Copyright",
+                    "Lawo et al"
+                ],
+                [
+                    "Annotation File",
+                    "idr0021-experimentA-annotation.csv https://github.com/IDR/idr0021-lawo-pericentriolarmaterial/blob/HEAD/experimentA/idr0021-experimentA-annotation.csv"
+                ]
+            ]
+        }
+    ],
+    "experimenters": [
+        {
+            "id": 2,
+            "omeName": "demo",
+            "firstName": "Public",
+            "lastName": "data"
+        }
+    ]
+}

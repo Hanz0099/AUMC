@@ -1,0 +1,104 @@
+{
+    "annotations": [
+        {
+            "id": 20516193,
+            "ns": "idr.openmicroscopy.org/study/info",
+            "description": null,
+            "owner": {
+                "id": 2
+            },
+            "date": "2019-06-04T10:44:02+01:00",
+            "permissions": {
+                "canDelete": false,
+                "canAnnotate": false,
+                "canLink": false,
+                "canEdit": false
+            },
+            "link": {
+                "id": 1304,
+                "owner": {
+                    "id": 2
+                },
+                "parent": {
+                    "id": 301,
+                    "class": "ProjectI",
+                    "name": "idr0026-weigelin-immunotherapy/experimentA"
+                },
+                "date": "2019-06-04T10:44:02+01:00",
+                "permissions": {
+                    "canDelete": false,
+                    "canAnnotate": false,
+                    "canLink": false,
+                    "canEdit": false
+                }
+            },
+            "class": "MapAnnotationI",
+            "values": [
+                [
+                    "Sample Type",
+                    "tissue"
+                ],
+                [
+                    "Organism",
+                    "Mus musculus"
+                ],
+                [
+                    "Study Title",
+                    "Focusing and sustaining the antitumor CTL effector killer response by agonist anti-CD137 mAb"
+                ],
+                [
+                    "Study Type",
+                    "time-lapse imaging"
+                ],
+                [
+                    "Imaging Method",
+                    "multi-photon microscopy"
+                ],
+                [
+                    "Publication Title",
+                    "Focusing and sustaining the antitumor CTL effector killer response by agonist anti-CD137 mAb."
+                ],
+                [
+                    "Publication Authors",
+                    "Weigelin B, Bola\u00f1os E, Teijeira A, Martinez-Forero I, Labiano S, Azpilikueta A, Morales-Kastresana A, Quetglas JI, Wagena E, S\u00e1nchez-Paulete AR, Chen L, Friedl P, Melero I"
+                ],
+                [
+                    "PubMed ID",
+                    "26034288 https://www.ncbi.nlm.nih.gov/pubmed/26034288"
+                ],
+                [
+                    "PMC ID",
+                    "PMC4475992 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4475992"
+                ],
+                [
+                    "Publication DOI",
+                    "10.1073/pnas.1506357112 https://doi.org/10.1073/pnas.1506357112"
+                ],
+                [
+                    "Release Date",
+                    "2017-04-17"
+                ],
+                [
+                    "License",
+                    "CC BY 4.0 https://creativecommons.org/licenses/by/4.0/"
+                ],
+                [
+                    "Copyright",
+                    "Weigelin et al"
+                ],
+                [
+                    "Annotation File",
+                    "idr0026-experimentA-annotation.csv https://github.com/IDR/idr-metadata/blob/HEAD/idr0026-weigelin-immunotherapy/experimentA/idr0026-experimentA-annotation.csv"
+                ]
+            ]
+        }
+    ],
+    "experimenters": [
+        {
+            "id": 2,
+            "omeName": "demo",
+            "firstName": "Public",
+            "lastName": "data"
+        }
+    ]
+}
