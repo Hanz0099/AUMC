@@ -1,8 +1,14 @@
 from langchain.chains import ConversationalRetrievalChain
-from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
+from langchain.prompts import ChatPromptTemplate
+from langchain_openai import ChatOpenAI
+from langchain_community.utilities import WikipediaAPIWrapper
+
+
+
 import os
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from dotenv import load_dotenv
@@ -21,21 +27,27 @@ logging.basicConfig(
     level=logging.INFO,  # log level
     format='%(asctime)s - %(levelname)s - %(message)s')  # log format
 
-def qa_agent(memory, uploaded_file, question):
+def qa_agent(memory, folder_path, question):
     # Initialize the model using OpenAI's API, specifying the model version.
     model = ChatOpenAI(model = "gpt-3.5-turbo")
-
-    # Read content from the uploaded PDF file.
-    file_content = uploaded_file.read()
-    temp_file_path = "temp.pdf"
-
-    # Write the content to a temporary PDF file.
-    with open(temp_file_path, "wb") as temp_file:
-        temp_file.write(file_content)
-
+    prompt = f"""
+        Please provide the answer to the question. 
+        After answering, identify the document where the answer is located 
+        and provide the 'Study Description' and 'Experiment Description' from that document. 
+        Additionally, please provide the 'Experiment Description' from three other related documents.
+        """
+    messages=[
+    {
+      "role": "user",
+      "content": prompt
+    }
+    ]
+    
     # Load the PDF file using a loader that can handle PDF formats.
-    loader = PyPDFLoader(temp_file_path)
-    docs = loader.load()
+    loaders = [TextLoader(os.path.join(folder_path, f)) for f in os.listdir(folder_path) if f.endswith(".txt")]
+    docs = []
+    for loader in loaders:
+        docs.extend(loader.load())
 
     # Split the document text into manageable chunks for processing.
     text_splitter = RecursiveCharacterTextSplitter(

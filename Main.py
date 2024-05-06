@@ -22,23 +22,31 @@ if "memory" not in st.session_state:
         output_key="answer"  # Key used to store answers in the memory
     )
 
-# Create a file uploader widget to upload PDF documents.
-uploaded_file = st.file_uploader("Upload your PDF document", type="pdf")
+temp_file_path = "/Users/hnfd/Desktop/zhanghan/UvA/Thesis/AUMC/All-txt"
 
 # Create a text input widget to take a search query, disabled if no file is uploaded.
-question = st.text_input("What data you want to search", disabled=not uploaded_file)
+"🚀 Welcome to intelligent search engine powered by IDR (Image Data Resource) . "
+"💬 Here, you can search for the data and information you need through conversation. "
+
+"🐣 For example, you might say: I want to find some images related to embryology," 
+"   or Show me the latest images from Professor Harry Fischl's articles 📚." 
+
+"🌟 This platform is designed to make your searches easier and more intuitive, catering to your specific needs."
+
+question = st.text_input("Now, start to ask questions here", disabled=not temp_file_path)
 
 
 
 # Display a warning if the OpenAI API key is not entered.
-if uploaded_file and question and not openai_api_key:
+if temp_file_path and question and not openai_api_key:
     st.info("Please enter OpenAI API key")
 
 # Process the file and the question if both are provided and the API key is available.
-if uploaded_file and question and openai_api_key:
-    with st.spinner("Searching, hold me please"):  # Display a spinning loading indicator during processing.
+if temp_file_path and question and openai_api_key:
+    with st.spinner("Hold tight, answer is on the way ⏳"):  # Display a spinning loading indicator during processing.
         # Call the qa_agent function to process the uploaded document and question.
-        response = qa_agent(st.session_state["memory"], uploaded_file, question)
+        
+        response = qa_agent(st.session_state["memory"], temp_file_path, question)
     st.write("### answer")  # Output the section heading 'answer'.
     st.write(response["answer"])  # Display the retrieved answer.
     # Update chat history in session state with the new interaction.
