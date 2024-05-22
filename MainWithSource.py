@@ -3,6 +3,7 @@ import os
 
 from langchain.memory import ConversationBufferMemory
 from UtilsWithSource import qa_agent
+from FormetDoc import format_retrieved_documents
 from dotenv import load_dotenv
 
 load_dotenv()  # Load environment variables from a .env file.
@@ -37,17 +38,7 @@ question = st.text_input("Now, start to ask questions here", disabled=not temp_f
 
 
 
-def format_context(document):
-    # 假设document是一个对象，有page_content和metadata属性
-    content = document.page_content  # 获取页面内容
-    source = document.metadata.get('source', '未知来源')  # 获取元数据中的来源信息
-    
-    # 清理和格式化内容
-    lines = content.split('\n')
-    clean_lines = [line.strip() for line in lines if line.strip() != '']
-    formatted_content = '\n'.join(clean_lines[:10])  # 仅展示前10行内容
-    
-    return f"Source: {source}\nAbstract:\n{formatted_content}"
+
 
 
 
@@ -61,10 +52,16 @@ if temp_file_path and question and openai_api_key:
         # Call the qa_agent function to process the uploaded document and question.
         
         response = qa_agent(st.session_state["memory"], temp_file_path, question)
-    st.write("### answer")  # Output the section heading 'answer'.
+    st.write("### Answer")  # Output the section heading 'answer'.
     st.write(response["answer"])  # Display the retrieved answer.
-    # formatted_context = format_context(response["context"])
-    st.write(response["context"])  # Display the context of retrieved answer.
+    # st.write(response["context"])  # Display the context of retrieved answer.
+
+    st.write("### Source of the answer")  # Output the section heading 'answer'.
+    raw_context = response["context"]
+    format_context = format_retrieved_documents(raw_context)
+    st.write(format_context) 
+    
+
     # Update chat history in session state with the new interaction.
     st.session_state["chat_history"] = response["chat_history"]
 

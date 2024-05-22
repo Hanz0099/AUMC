@@ -1,6 +1,9 @@
-from langchain.chains import ConversationalRetrievalChain
+from langchain.chains import (
+    StuffDocumentsChain, LLMChain, ConversationalRetrievalChain
+)
 from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import FAISS
+from langchain_core.prompts import PromptTemplate
 from langchain.prompts import ChatPromptTemplate
 from langchain_community.utilities import WikipediaAPIWrapper
 from langchain_core.output_parsers import StrOutputParser
@@ -40,15 +43,8 @@ logging.basicConfig(
 def qa_agent(memory, folder_path, question):
     # Initialize the model using OpenAI's API, specifying the model version.
     
-    prompt = f"""
-        Please provide the answer to the question. 
-        After answering, identify the document where the answer is located 
-        and provide the 'Study Description' and 'Experiment Description' from that document. 
-        Additionally, please provide the 'Experiment Description' from three other related documents.
-        """
     
-    
-    # Load the PDF file using a loader that can handle PDF formats.
+    # Load the  file using a loader that can handle txt formats.
     loaders = [TextLoader(os.path.join(folder_path, f)) for f in os.listdir(folder_path) if f.endswith(".txt")]
     docs = []
     for loader in loaders:
@@ -74,6 +70,8 @@ def qa_agent(memory, folder_path, question):
     
     # Create a retriever that can find relevant text chunks based on the embeddings.
     retriever = db.as_retriever()
+  
+
     prompt = hub.pull("rlm/rag-prompt")
     llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 
@@ -94,11 +92,16 @@ def qa_agent(memory, folder_path, question):
 
     response = rag_chain_with_source.invoke(question)
 
-    return response 
+    return response  
 
 
-    """
 
+
+
+
+
+
+""" 
     formatted_retriever = LambdaRunnable(lambda x: format_docs(x["context"]), retriever)
 
     rag_chain = RunnableSequence(
